@@ -659,6 +659,7 @@ ol {
 
 
 .work-item{
+    display: block;
     box-sizing: border-box;
     width: calc((100% - 48px) / 3); 
     background: var(--color-background-portfolio-items);
@@ -723,7 +724,8 @@ ol {
 
 
 .footer-social-media-container{
-    display: block;
+    display: flex;
+    flex-direction: column;    
     width: 208px;
     height: 80px;        
 }
@@ -732,7 +734,8 @@ ol {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;    
+    font-size: 16px;
+    margin: 0;
     margin-bottom: 16px;    
     line-height: 1.5;
     letter-spacing: 0.02em;
