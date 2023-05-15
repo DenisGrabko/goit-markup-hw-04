@@ -294,13 +294,11 @@ ol {
 }
 
 .align-features {
-    display: flex;
-    height: 112px;
+    display: flex;    
     align-items: center;
-    justify-content: center;
-    background-color: #f4f4fd;
+    justify-content: center;    
     border-radius: 4px;
-    margin-bottom: 8px;
+    margin-bottom: 24px;
 }
 
 .features-list {
@@ -321,8 +319,9 @@ ol {
 
 .features-svg-image-container{ 
     display: flex;   
-    width: 64px;
-    height: 64px;
+    height: 112px;
+    border-radius: 4px;
+    margin-bottom: 24px;
     background-color: var(--color-features-svg-image-container);
     justify-content: center;
     align-items: center;    
