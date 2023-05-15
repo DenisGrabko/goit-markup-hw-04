@@ -295,11 +295,12 @@ ol {
 
 .align-features {
     display: flex;
+    height: 112px;
     align-items: center;
     justify-content: center;
     background-color: #f4f4fd;
     border-radius: 4px;
-    margin-bottom: 24px;
+    margin-bottom: 8px;
 }
 
 .features-list {
