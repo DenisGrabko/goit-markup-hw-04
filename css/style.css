@@ -321,7 +321,7 @@ ol {
     display: flex;   
     height: 112px;
     border-radius: 4px;
-    margin-bottom: 24px;
+    margin-bottom: 8px;
     background-color: var(--color-features-svg-image-container);
     justify-content: center;
     align-items: center;    
