@@ -727,12 +727,16 @@ ol {
     height: 80px;        
 }
 
+.footer-social-media-container > p {
+    
+}
+
 .footer-social-media-container-title{    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    margin-bottom: 16px;
+    font-size: 16px;    
+    margin-bottom: 16px;   
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -766,9 +770,7 @@ ol {
 }
 
 .footer-svg-items{
-    fill: #f4f4fd;
-    width: 24px;
-    height: 24px;
+    fill: #f4f4fd;    
     justify-content: center;
     align-items: center;    
 }
