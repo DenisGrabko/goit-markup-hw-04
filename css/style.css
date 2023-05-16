@@ -519,23 +519,18 @@ ol {
 
 /*customers*/
 
-.customers {
-    width: 1440px;
-}
-
-.customers-container {
-    margin-top: 120px;
-    margin-bottom: 120px;
+.customers {    
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .customers-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 36px;    
     margin-bottom: 72px;
-    ;
+    line-height: 1.1;    
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -552,24 +547,28 @@ ol {
 
 .customers-logo-item {
     width: 168px;
-    height: 88px;
-    padding: 16px 32px;
-    border: 1px solid #8E8F99;
-    border-radius: 4px;
-
+    height: 88px;   
 }
 
 .customer-logo-link {
     display: flex;
-    width: 104px;
-    height: 56px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    color: #8e8f99;
     justify-content: center;
     align-items: center;
 }
 
+.customer-logo-link:hover, 
+.customer-logo-link:focus {
+    border-color: #404bbf;
+    color:#404bbf;
+}
+
 .customer-logo-svg {
-    display: flex;
-    width: 41px;
+    fill: currentColor;
 }
 
 /* PORTFOLIO */
