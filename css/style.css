@@ -151,12 +151,12 @@ ol {
     font-weight: 500;
     font-size: 16px;    
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-text-main);
+    letter-spacing: 0.02em;    
 }
 
 .navigation-item-link {
     padding: 24px 0;
+    color: var(--color-text-main);
 }
 
 
@@ -230,8 +230,7 @@ ol {
 }
 
 .hero-section-background-image{
-    max-width: 1440px;
-    height: 600px;
+    max-width: 1440px;    
     background-position: center;    
     background-size: cover;   
     background-image:linear-gradient(
@@ -287,9 +286,7 @@ ol {
 
 
 /* features */
-.features {
-    width: 1158px;
-    height: 344px;
+.features {    
     padding: 120px 0;    
 }
 
@@ -298,16 +295,14 @@ ol {
     align-items: center;
     justify-content: center;    
     border-radius: 4px;
-    margin-bottom: 24px;
+    
 }
 
 .features-list {
-    display: flex;    
-    width: 1128px;    
+    display: flex;        
     margin-left: auto;
     margin-right: auto;
     gap: 24px;
-
 }
 
 .features-item {    
@@ -365,10 +360,7 @@ ol {
 }
 
 /* specialization */
-.specialization {
-    width: 1158px;
-    height: 532px;
-    margin-top: 119px;
+.specialization {       
     padding-bottom: 120px;
 }
 
@@ -465,7 +457,7 @@ ol {
     font-size: 20px;
     line-height: 24px;
     text-align: center;
-    margin-bottom: 8px;
+    padding-bottom: 8px;
     letter-spacing: 0.02em;
     white-space: nowrap;
     color: #2E2F42;
@@ -486,7 +478,7 @@ ol {
 
 .team-social-grid {
     display: flex;    
-    direction: row;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding-top: 8px;
@@ -495,7 +487,7 @@ ol {
 
 .team-social-item{
     width: 40px;
-    height: 40px;
+    height: 40px;    
 }
 
 .team-svg-link {
@@ -633,7 +625,6 @@ ol {
       
 }
 
-
 .work-div-subtitle-text{       
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -670,9 +661,11 @@ ol {
     display: block;
 }
 .work-item-link:hover,
-.work-item-link:focus {
-    border: 1px solid #F4F4FD;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.work-item-link:focus {    
+    box-shadow: 0px 1px 6px
+     rgba(46, 47, 66, 0.08), 0px 1px 1px 
+     rgba(46, 47, 66, 0.16), 0px 2px 1px
+      rgba(46, 47, 66, 0.08);
 }
 
 .work-item img{
